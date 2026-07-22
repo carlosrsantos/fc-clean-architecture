@@ -14,6 +14,8 @@
   },
   "scripts": {
     "test": "npm run tsc -- --noEmit && jest",
+    "test:watch": "jest --watch",
+    "test:file": "jest",
     "tsc": "tsc",
     "dev": "nodemon src/infrastructure/api/server.ts"
   },
