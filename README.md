@@ -1,4 +1,4 @@
-# Desafio Full Cycle - Clean Architecture: Use Cases para a Entidade Product
+# Desafio Full Cycle - Clean Architecture
 
 Implementação de modelagem tática com DDD, padrões de projeto e testes unitários utilizando Typescript.
 
