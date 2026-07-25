@@ -7,6 +7,7 @@ Implementação de modelagem tática com DDD, padrões de projeto e testes unit�
 - [Requisitos](#requisitos)
 - [Instalação](#instalação)
 - [Executar testes](#executar-testes)
+- [Executar API(modo dev)](#executar-api)
 
 
 ## Requisitos
@@ -42,11 +43,19 @@ Implementação de modelagem tática com DDD, padrões de projeto e testes unit�
 2. **Executar um arquivo de testes específico**:
 
    ```bash
-      npm run test:file -- <nome_do_arquivo_de_teste.spec.ts>
+      npm run test -- <nome_do_arquivo_de_teste.spec.ts>
    ```
 
 3. **Executar um ou vários testes a partir do nome do teste**:
 
    ```bash
-      npm run test:file -- -t "nome do teste"
+      npm run test -- -t "nome do teste"
+   ```
+
+## Executar API
+
+1. **Executar o comando**:
+
+   ```bash
+      npm run dev
    ```
